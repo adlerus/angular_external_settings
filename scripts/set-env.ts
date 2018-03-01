@@ -14,7 +14,7 @@ import { writeFile } from 'fs';
 // const environment = argv.environment;
 // const isProd = environment === 'prod';
 
-const targetPath = `./src/environments/externalsettings.json`;
+const targetPath = `./src/assets/externalsettings.json`;
 const envConfigFile = `
 {
   "name": "${process.env.SUPER_SECRET_NAME}"
